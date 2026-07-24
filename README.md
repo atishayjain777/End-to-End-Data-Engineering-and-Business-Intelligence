@@ -317,3 +317,314 @@ Business Insights & Executive Reporting
 - ✅ Interactive Power BI Dashboards
 - ✅ Executive Business Reporting
 - ✅ Decision Support Analytics
+
+
+
+
+---
+
+# 🏗️ Solution Architecture
+
+The project follows a production-style analytics architecture that transforms raw transactional data into business-ready insights through a structured Data Engineering and Business Intelligence workflow.
+
+Unlike traditional dashboard projects, this solution separates data ingestion, transformation, warehousing, business logic, and reporting into independent layers, closely simulating an enterprise analytics environment.
+
+<div align="center">
+
+![Solution Architecture](.png)
+
+</div>
+
+---
+
+## 🏛️ Architecture Layers
+
+### 1️⃣ Data Source Layer
+
+The project begins with raw retail transactional datasets stored in CSV format.
+
+The source data contains:
+
+- Customer Information
+- Product Information
+- Sales Transactions
+- Market Information
+- Forecast Data
+- Pricing & Cost Data
+
+---
+
+### 2️⃣ Data Engineering Layer
+
+Python was used to automate the ETL process.
+
+Major responsibilities include:
+
+- Reading Raw CSV Files
+- Data Type Conversion
+- Bulk Loading into MySQL
+- ETL Automation
+- Error Handling
+
+---
+
+### 3️⃣ Database Layer
+
+All datasets are stored inside MySQL before analytical processing.
+
+Database responsibilities include:
+
+- Centralized Data Storage
+- Relational Data Management
+- SQL Processing
+- Data Consistency
+
+---
+
+### 4️⃣ SQL Transformation Layer
+
+After loading the raw datasets, SQL was used to prepare business-ready data.
+
+Transformation activities include:
+
+- SQL-Based NULL Value Handling
+- UPDATE Queries
+- CASE WHEN Logic
+- COALESCE() / IFNULL()
+- Business Rule Implementation
+- Data Standardization
+- Data Structuring
+- Forecast Preparation
+
+---
+
+### 5️⃣ Data Warehouse Layer
+
+A dimensional warehouse was designed using Star Schema.
+
+Warehouse components include:
+
+- Fact Tables
+- Dimension Tables
+- Business Lookup Tables
+- Optimized Relationships
+
+The warehouse enables high-performance analytical queries and reporting.
+
+---
+
+### 6️⃣ Business Analytics Layer
+
+Advanced SQL was used to perform enterprise-level business analysis.
+
+Features include:
+
+- Views
+- Stored Procedures
+- SQL Functions
+- Window Functions
+- Common Table Expressions (CTEs)
+- Business Analysis Queries
+- Forecast Validation
+- Data Validation
+- Data Profiling
+- Query Optimization
+
+---
+
+### 7️⃣ Business Intelligence Layer
+
+Power BI consumes the analytical warehouse and provides interactive dashboards for business users.
+
+Dashboard modules include:
+
+- Executive Dashboard
+- Finance Dashboard
+- Sales Dashboard
+- Marketing Dashboard
+- Supply Chain Dashboard
+- Forecast Dashboard
+
+---
+
+# 🔄 ETL Pipeline
+
+The project follows a structured ETL workflow for transforming raw retail data into analytical datasets.
+
+<div align="center">
+
+![ETL Pipeline](Images/etl_pipeline.png)
+
+</div>
+
+### ETL Process
+
+```text
+Extract
+│
+├── Read CSV Files
+├── Import Source Data
+└── Validate Input Files
+
+↓
+
+Transform
+│
+├── SQL-Based NULL Handling
+├── Data Cleaning
+├── Data Structuring
+├── Data Type Conversion
+├── Business Rule Implementation
+├── Forecast Data Preparation
+└── Data Validation
+
+↓
+
+Load
+│
+├── MySQL Database
+├── Data Warehouse
+├── Fact Tables
+└── Dimension Tables
+```
+
+---
+
+# 🗄️ Database Architecture
+
+The MySQL database acts as the central repository for storing transactional, dimensional, and analytical datasets.
+
+Database architecture consists of:
+
+### Fact Tables
+
+- fact_sales_monthly
+- fact_forecast_monthly
+
+### Dimension Tables
+
+- dim_customer
+- dim_product
+- dim_market
+- dim_date
+
+### Supporting Tables
+
+- gross_price
+- manufacturing_cost
+- freight_cost
+- pre_invoice_deductions
+- post_invoice_deductions
+
+---
+
+# ⭐ Star Schema Design
+
+A Star Schema was implemented to optimize reporting performance and simplify business analytics.
+
+<div align="center">
+
+![Star Schema](Images/star_schema.png)
+
+</div>
+
+### Benefits
+
+- Faster Query Performance
+- Simplified Reporting
+- Optimized Relationships
+- Better Scalability
+- Reduced Data Redundancy
+
+---
+
+# 🔗 Entity Relationship Diagram (ERD)
+
+The warehouse uses relational keys to connect dimension tables with fact tables.
+
+<div align="center">
+
+![ER Diagram](Images/er_diagram.png)
+
+</div>
+
+Primary relationships include:
+
+- Customer → Sales
+- Product → Sales
+- Market → Sales
+- Date → Sales
+- Product → Pricing
+- Customer → Invoice Deductions
+- Product → Manufacturing Cost
+- Forecast → Sales
+
+---
+
+# 📂 Project Structure
+
+```text
+End-to-End-Data-Engineering-and-Business-Intelligence/
+│
+├── Dataset/
+│
+├── Python/
+│   ├── ETL Scripts
+│   └── Data Loading
+│
+├── SQL/
+│   ├── Database Setup
+│   ├── Dimension Tables
+│   ├── Fact Tables
+│   ├── Views
+│   ├── Functions
+│   ├── Stored Procedures
+│   ├── Business Analysis
+│   ├── Window Functions
+│   ├── Data Validation
+│   ├── Data Profiling
+│   ├── Forecast Validation
+│   ├── Indexes
+│   ├── Triggers
+│   ├── Events
+│   └── Query Optimization
+│
+├── PowerBI/
+│   ├── Dashboard.pbix
+│   ├── Dashboard.pdf
+│   └── Screenshots/
+│
+├── Images/
+│   ├── architecture.png
+│   ├── etl_pipeline.png
+│   ├── star_schema.png
+│   └── er_diagram.png
+│
+├── Documentation/
+│
+├── README.md
+│
+└── LICENSE
+```
+
+---
+
+# 📌 Key Design Principles
+
+The project was designed using industry-standard Data Engineering and Business Intelligence practices.
+
+Key principles include:
+
+- Modular ETL Pipeline
+- Layered Architecture
+- Relational Database Design
+- Star Schema Modeling
+- SQL-Based Business Logic
+- Data Validation & Quality Checks
+- Forecast Validation Framework
+- Interactive Business Reporting
+- Scalable Analytics Workflow
+- Decision Support System
+
+---
+
