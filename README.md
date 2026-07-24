@@ -331,7 +331,7 @@ Unlike traditional dashboard projects, this solution separates data ingestion, t
 
 <div align="center">
 
-![Solution Architecture](.png)
+![Solution Architecture](https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/solution_architecture.png.png)
 
 </div>
 
