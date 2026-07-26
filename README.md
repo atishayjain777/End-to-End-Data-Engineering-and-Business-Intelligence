@@ -867,7 +867,7 @@ The dashboard provides a centralized view of business performance across multipl
 # 💰 Finance Dashboard
 
 <p align="center">
-<img src="Images/finance_dashboard.png" width="100%">
+<img src="https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/PowerBI/PowerBI/Screenshots/finance_view_dashboard.png" width="100%">
 </p>
 
 ### Finance KPIs
@@ -884,7 +884,7 @@ The dashboard provides a centralized view of business performance across multipl
 # 📈 Sales Dashboard
 
 <p align="center">
-<img src="Images/sales_dashboard.png" width="100%">
+<img src="https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/PowerBI/PowerBI/Screenshots/sales_view_dashboadr.png" width="100%">
 </p>
 
 ### Sales Analysis
@@ -901,7 +901,7 @@ The dashboard provides a centralized view of business performance across multipl
 # 📢 Marketing Dashboard
 
 <p align="center">
-<img src="Images/marketing_dashboard.png" width="100%">
+<img src="https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/PowerBI/PowerBI/Screenshots/marketing_view_dashboard.png" width="100%">
 </p>
 
 ### Marketing Insights
@@ -917,7 +917,7 @@ The dashboard provides a centralized view of business performance across multipl
 # 🚚 Supply Chain Dashboard
 
 <p align="center">
-<img src="Images/supply_chain_dashboard.png" width="100%">
+<img src="https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/PowerBI/PowerBI/Screenshots/supply_chin_view_dashboard.png" width="100%">
 </p>
 
 ### Supply Chain KPIs
@@ -934,7 +934,7 @@ The dashboard provides a centralized view of business performance across multipl
 # 👔 Executive Dashboard
 
 <p align="center">
-<img src="Images/executive_dashboard.png" width="100%">
+<img src="https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/PowerBI/PowerBI/Screenshots/executive_view_dashboard.png" width="100%">
 </p>
 
 ### Executive KPIs
@@ -1215,7 +1215,7 @@ cd End-to-End-Data-Engineering-and-Business-Intelligence
 Run the SQL scripts located in:
 
 ```
-SQL/01_Database_Setup/
+https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/tree/main/SQL/01_Database_Setup
 ```
 
 ---
@@ -1225,18 +1225,18 @@ SQL/01_Database_Setup/
 Place all CSV files inside:
 
 ```
-Data/
+https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/tree/main/Dataset
 ```
 
 Run the Python ETL script to load data into MySQL.
 
----
+https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/tree/main/Python/04_Load_Data.py
 
 ### 5️⃣ Execute SQL Scripts
 
 Run the SQL files in the following order:
 
-```
+
 Database Setup
 ↓
 
@@ -1255,16 +1255,42 @@ Fact Tables
 Views
 
 ↓
-
-Stored Procedures
-
-↓
-
 Functions
 
 ↓
 
+Stored Procedures
+
+↓
+Window_Functions
+
+↓
+Data_Validation
+
+↓
+Data_Profiling
+
+↓
+Indexes
+
+↓
+
+Triggers
+
+↓
+
+Events
+
+↓
+
 Business Analysis Queries
+
+↓
+
+Forecast_Validation
+
+↓
+Query_Optimization
 ```
 
 ---
@@ -1349,9 +1375,9 @@ Planned enhancements include:
 
 **Atishay Jain**
 
-- LinkedIn: https://www.linkedin.com/in/your-profile
-- GitHub: https://github.com/your-username
-- Email: your-email@example.com
+- LinkedIn: https://https://www.linkedin.com/feed/
+- GitHub: https://https://github.com/atishayjain777
+- Email: your-atishayjain849@gmail.com
 
 ---
 
@@ -1359,7 +1385,7 @@ Planned enhancements include:
 
 This project is licensed under the **MIT License**.
 
-See the `LICENSE` file for more details.
+
 
 ---
 
