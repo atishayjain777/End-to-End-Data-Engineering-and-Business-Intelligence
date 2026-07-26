@@ -544,7 +544,7 @@ The warehouse uses relational keys to connect dimension tables with fact tables.
 
 <div align="center">
 
-![ER Diagram](Images/er_diagram.png)
+![ER Diagram](https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/Images/er_diagram%20.png)
 
 </div>
 
