@@ -1237,64 +1237,37 @@ https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intel
 
 Run the SQL files in the following order:
 
-
 Database Setup
 ↓
-
-Table Creation
-
-↓
-
 Dimension Tables
-
 ↓
-
 Fact Tables
-
 ↓
-
+Data Cleaning
+↓
 Views
-
 ↓
 Functions
-
 ↓
-
 Stored Procedures
-
 ↓
-Window_Functions
-
+Window Functions
 ↓
-Data_Validation
-
+Data Validation
 ↓
-Data_Profiling
-
+Data Profiling
+↓
+Forecast Validation
 ↓
 Indexes
-
 ↓
-
 Triggers
-
 ↓
-
 Events
-
 ↓
-
 Business Analysis Queries
-
 ↓
-
-Forecast_Validation
-
-↓
-Query_Optimization
-```
-
----
+Query Optimization
 
 ### 6️⃣ Open Power BI Dashboard
 
@@ -1310,11 +1283,10 @@ Refresh the data source and explore the dashboards.
 
 # 📁 Project Structure
 
-```
+```text
 End-to-End-Data-Engineering-and-Business-Intelligence/
-
 │
-├── 📂 Dataset/
+├── Dataset/
 │   ├── Raw_Data/
 │   │   ├── dim_customer.csv
 │   │   ├── dim_product.csv
@@ -1334,7 +1306,7 @@ End-to-End-Data-Engineering-and-Business-Intelligence/
 │   │
 │   └── README.md
 │
-├── 📂 Documentation/
+├── Documentation/
 │   ├── 01_Project_Report.pdf
 │   ├── 02_Solution_Architecture.png
 │   ├── 03_Data_Flow_Diagram.png
@@ -1343,7 +1315,7 @@ End-to-End-Data-Engineering-and-Business-Intelligence/
 │   ├── 06_ER_Diagram.png
 │   └── README.md
 │
-├── 📂 Images/
+├── Images/
 │   ├── dashboard_overview.png
 │   ├── home_dashboard.png
 │   ├── executive_dashboard.png
@@ -1357,12 +1329,12 @@ End-to-End-Data-Engineering-and-Business-Intelligence/
 │   ├── star_schema.png
 │   └── er_diagram.png
 │
-├── 📂 PowerBI/
+├── PowerBI/
 │   ├── Global_Estore_Dashboard.pdf
 │   ├── README.md
 │   └── Screenshots/
 │
-├── 📂 Python/
+├── Python/
 │   ├── 01_Read_CSV.py
 │   ├── 02_Clean_Data.py
 │   ├── 03_Database_Connection.py
@@ -1370,7 +1342,7 @@ End-to-End-Data-Engineering-and-Business-Intelligence/
 │   ├── requirements.txt
 │   └── README.md
 │
-├── 📂 SQL/
+├── SQL/
 │   ├── 01_Database_Setup/
 │   ├── 02_Dimension_Tables/
 │   ├── 03_Fact_Tables/
@@ -1394,9 +1366,6 @@ End-to-End-Data-Engineering-and-Business-Intelligence/
 ├── .gitignore
 └── requirements.txt
 ```
-
----
-
 # 🚀 Future Improvements
 
 Planned enhancements include:
