@@ -841,7 +841,7 @@ Interactive dashboards were developed in Power BI to transform warehouse data in
 # 🖼️ Dashboard Overview
 
 <p align="center">
-<img src="Images/dashboard_overview.png" width="100%">
+<img src="" width="100%">
 </p>
 
 The dashboard provides a centralized view of business performance across multiple functional areas.
@@ -851,7 +851,7 @@ The dashboard provides a centralized view of business performance across multipl
 # 🏠 Home Dashboard
 
 <p align="center">
-<img src="Images/home_dashboard.png" width="100%">
+<img src="https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/PowerBI/PowerBI/Screenshots/home_dashboard.png" width="100%">
 </p>
 
 ### Key Features
