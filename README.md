@@ -881,7 +881,7 @@ Interactive dashboards were developed in Power BI to transform warehouse data in
 # 🖼️ Dashboard Overview
 
 <p align="center">
-<img src="" width="100%">
+<img src="https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/Images/solution_architecture.png" width="100%">
 </p>
 
 The dashboard provides a centralized view of business performance across multiple functional areas.
@@ -1027,12 +1027,16 @@ The dashboard provides a centralized view of business performance across multipl
 # 📈 Key Performance Indicators (KPIs)
 
 The dashboards monitor important business metrics including:
-Sales KPIs
+#Sales KPIs
+
+
 - Net Sales
 - Gross Sales
 - Gross Margin
 - Gross Margin %
-Forecast KPIs
+  
+  
+#Forecast KPIs
 - Forecast Accuracy
 - Forecast Bias
 - forecast_accuracy %
@@ -1040,24 +1044,26 @@ Forecast KPIs
 - Net Error
 - net_error %
 - risk
-- 
- Finance KPIs
+
+  
+# Finance KPIs
 -manufacturing_cost
 -freight_cost
-- operational_expenses
-- other_cost
-- p&l final value
+-operational_expenses
+-other_cost
+-p&l final value
+  
 
-Business KPIs
-  -Market Share %
-- Consumer MS %
-- sales_qty
-  -quantity
+#Business KPIs
+-Market Share %
+-Consumer MS %
+-sales_qty
+-quantity
+-Customer Performance
+-Product Performance
+-Regional Performance
+-Market Performance
 
-- Customer Performance
-- Product Performance
-- Regional Performance
-- Market Performance
 
 # 🎯 Business Value
 
@@ -1284,10 +1290,6 @@ https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intel
 Place all CSV files inside:
 
 https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/tree/main/Dataset
-
-```
-
-```
 
 Run the Python ETL script to load data into MySQL.
 https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/Python/main.py/05_MAIN.py
