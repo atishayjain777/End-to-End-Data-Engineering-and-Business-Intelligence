@@ -1201,7 +1201,7 @@ Make sure the following software is installed:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/End-to-End-Data-Engineering-and-Business-Intelligence.git
+git clone https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence
 ```
 
 ### 2️⃣ Navigate to Project Folder
@@ -1214,8 +1214,8 @@ cd End-to-End-Data-Engineering-and-Business-Intelligence
 
 Run the SQL scripts located in:
 
-```
-https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/tree/main/SQL/01_Database_Setup
+```https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/tree/main/SQL/02_Dimension_Tables
+https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/tree/main/SQL/03_Fact_Tables
 ```
 
 ---
@@ -1224,13 +1224,14 @@ https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intel
 
 Place all CSV files inside:
 
-```
 https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/tree/main/Dataset
+
+```
+
 ```
 
 Run the Python ETL script to load data into MySQL.
-
-https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/tree/main/Python/04_Load_Data.py
+https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/Python/main.py/05_MAIN.py
 
 ### 5️⃣ Execute SQL Scripts
 
@@ -1311,23 +1312,87 @@ Refresh the data source and explore the dashboards.
 
 ```
 End-to-End-Data-Engineering-and-Business-Intelligence/
+
 │
-├── Data/
-├── Python/
-├── SQL/
-│   ├── Database_Setup/
-│   ├── Dimension_Tables/
-│   ├── Fact_Tables/
-│   ├── Views/
-│   ├── Stored_Procedures/
-│   ├── Functions/
-│   ├── Business_Queries/
-│   └── Optimization/
+├── 📂 Dataset/
+│   ├── Raw_Data/
+│   │   ├── dim_customer.csv
+│   │   ├── dim_product.csv
+│   │   ├── dim_market.csv
+│   │   ├── fact_sales_monthly.csv
+│   │   ├── fact_forecast_monthly.csv
+│   │   ├── gross_price.csv
+│   │   ├── manufacturing_cost.csv
+│   │   ├── freight_cost.csv
+│   │   ├── pre_invoice_deductions.csv
+│   │   └── post_invoice_deductions.csv
+│   │
+│   ├── Processed_Data/
+│   │   ├── helper.csv
+│   │   ├── helper_clean.csv
+│   │   └── final_dataset.csv
+│   │
+│   └── README.md
 │
-├── PowerBI/
-├── Images/
+├── 📂 Documentation/
+│   ├── 01_Project_Report.pdf
+│   ├── 02_Solution_Architecture.png
+│   ├── 03_Data_Flow_Diagram.png
+│   ├── 04_ETL_Pipeline.png
+│   ├── 05_Star_Schema.png
+│   ├── 06_ER_Diagram.png
+│   └── README.md
+│
+├── 📂 Images/
+│   ├── dashboard_overview.png
+│   ├── home_dashboard.png
+│   ├── executive_dashboard.png
+│   ├── finance_dashboard.png
+│   ├── sales_dashboard.png
+│   ├── marketing_dashboard.png
+│   ├── supply_chain_dashboard.png
+│   ├── solution_architecture.png
+│   ├── data_flow_diagram.png
+│   ├── etl_pipeline.png
+│   ├── star_schema.png
+│   └── er_diagram.png
+│
+├── 📂 PowerBI/
+│   ├── Global_Estore_Dashboard.pdf
+│   ├── README.md
+│   └── Screenshots/
+│
+├── 📂 Python/
+│   ├── 01_Read_CSV.py
+│   ├── 02_Clean_Data.py
+│   ├── 03_Database_Connection.py
+│   ├── 04_Load_Data.py
+│   ├── requirements.txt
+│   └── README.md
+│
+├── 📂 SQL/
+│   ├── 01_Database_Setup/
+│   ├── 02_Dimension_Tables/
+│   ├── 03_Fact_Tables/
+│   ├── 04_Data_Cleaning/
+│   ├── 05_Views/
+│   ├── 06_Functions/
+│   ├── 07_Stored_Procedures/
+│   ├── 08_Window_Functions/
+│   ├── 09_Business_Analysis/
+│   ├── 10_Data_Validation/
+│   ├── 11_Data_Profiling/
+│   ├── 12_Forecast_Validation/
+│   ├── 13_Indexes/
+│   ├── 14_Triggers/
+│   ├── 15_Events/
+│   ├── 16_Query_Optimization/
+│   └── README.md
+│
 ├── README.md
-└── LICENSE
+├── LICENSE
+├── .gitignore
+└── requirements.txt
 ```
 
 ---
