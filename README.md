@@ -567,44 +567,84 @@ Primary relationships include:
 End-to-End-Data-Engineering-and-Business-Intelligence/
 │
 ├── Dataset/
+│   ├── Raw_Data/
+│   │   ├── dim_customer.csv
+│   │   ├── dim_product.csv
+│   │   ├── dim_market.csv
+│   │   ├── fact_sales_monthly.csv
+│   │   ├── fact_forecast_monthly.csv
+│   │   ├── gross_price.csv
+│   │   ├── manufacturing_cost.csv
+│   │   ├── freight_cost.csv
+│   │   ├── pre_invoice_deductions.csv
+│   │   └── post_invoice_deductions.csv
+│   │
+│   ├── Processed_Data/
+│   │   ├── helper.csv
+│   │   ├── helper_clean.csv
+│   │   └── final_dataset.csv
+│   │
+│   └── README.md
 │
-├── Python/
-│   ├── ETL Scripts
-│   └── Data Loading
-│
-├── SQL/
-│   ├── Database Setup
-│   ├── Dimension Tables
-│   ├── Fact Tables
-│   ├── Views
-│   ├── Functions
-│   ├── Stored Procedures
-│   ├── Business Analysis
-│   ├── Window Functions
-│   ├── Data Validation
-│   ├── Data Profiling
-│   ├── Forecast Validation
-│   ├── Indexes
-│   ├── Triggers
-│   ├── Events
-│   └── Query Optimization
-│
-├── PowerBI/
-│   ├── Dashboard.pbix
-│   ├── Dashboard.pdf
-│   └── Screenshots/
+├── Documentation/
+│   ├── 01_Project_Report.pdf
+│   ├── 02_Solution_Architecture.png
+│   ├── 03_Data_Flow_Diagram.png
+│   ├── 04_ETL_Pipeline.png
+│   ├── 05_Star_Schema.png
+│   ├── 06_ER_Diagram.png
+│   └── README.md
 │
 ├── Images/
-│   ├── architecture.png
+│   ├── dashboard_overview.png
+│   ├── home_dashboard.png
+│   ├── executive_dashboard.png
+│   ├── finance_dashboard.png
+│   ├── sales_dashboard.png
+│   ├── marketing_dashboard.png
+│   ├── supply_chain_dashboard.png
+│   ├── solution_architecture.png
+│   ├── data_flow_diagram.png
 │   ├── etl_pipeline.png
 │   ├── star_schema.png
 │   └── er_diagram.png
 │
-├── Documentation/
+├── PowerBI/
+│   ├── Global_Estore_Dashboard.pdf
+│   ├── README.md
+│   └── Screenshots/
+│
+├── Python/
+│   ├── 01_Read_CSV.py
+│   ├── 02_Clean_Data.py
+│   ├── 03_Database_Connection.py
+│   ├── 04_Load_Data.py
+│   ├── requirements.txt
+│   └── README.md
+│
+├── SQL/
+│   ├── 01_Database_Setup/
+│   ├── 02_Dimension_Tables/
+│   ├── 03_Fact_Tables/
+│   ├── 04_Data_Cleaning/
+│   ├── 05_Views/
+│   ├── 06_Functions/
+│   ├── 07_Stored_Procedures/
+│   ├── 08_Window_Functions/
+│   ├── 09_Business_Analysis/
+│   ├── 10_Data_Validation/
+│   ├── 11_Data_Profiling/
+│   ├── 12_Forecast_Validation/
+│   ├── 13_Indexes/
+│   ├── 14_Triggers/
+│   ├── 15_Events/
+│   ├── 16_Query_Optimization/
+│   └── README.md
 │
 ├── README.md
-│
-└── LICENSE
+├── LICENSE
+├── .gitignore
+└── requirements.txt
 ```
 
 ---
@@ -971,6 +1011,7 @@ The dashboard provides a centralized view of business performance across multipl
 - Running Total
 - Contribution %
 
+
 ### Interactive Features
 
 - Slicers
@@ -986,19 +1027,37 @@ The dashboard provides a centralized view of business performance across multipl
 # 📈 Key Performance Indicators (KPIs)
 
 The dashboards monitor important business metrics including:
-
+Sales KPIs
 - Net Sales
 - Gross Sales
 - Gross Margin
 - Gross Margin %
+Forecast KPIs
 - Forecast Accuracy
 - Forecast Bias
+- forecast_accuracy %
+- forecast_qty
+- Net Error
+- net_error %
+- risk
+- 
+ Finance KPIs
+-manufacturing_cost
+-freight_cost
+- operational_expenses
+- other_cost
+- p&l final value
+
+Business KPIs
+  -Market Share %
+- Consumer MS %
+- sales_qty
+  -quantity
+
 - Customer Performance
 - Product Performance
 - Regional Performance
 - Market Performance
-
----
 
 # 🎯 Business Value
 
