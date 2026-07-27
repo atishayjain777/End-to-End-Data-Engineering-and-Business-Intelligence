@@ -910,7 +910,9 @@ The dashboard provides a centralized view of business performance across multipl
 <img src="https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/PowerBI/PowerBI/Screenshots/finance_view_dashboard.png" width="100%">
 </p>
 
-### Finance KPIs
+
+
+#Finance KPIs
 
 - Net Sales
 - Gross Sales
