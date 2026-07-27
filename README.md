@@ -777,7 +777,8 @@ Examples include:
 
 A forecasting framework was implemented to compare actual sales with forecasted sales.
 
-### Forecast Dimensions
+
+#Forecast Dimensions
 
 - Customer-wise Forecast
 - Product-wise Forecast
@@ -786,8 +787,9 @@ A forecasting framework was implemented to compare actual sales with forecasted 
 - Sub-Zone-wise Forecast
 - Monthly Forecast
 - Fiscal Year Forecast
+- 
 
-### Forecast KPIs
+# Forecast KPIs
 
 - Forecast Accuracy
 - Forecast Bias
@@ -913,7 +915,6 @@ The dashboard provides a centralized view of business performance across multipl
 
 
 #Finance KPIs
-
 - Net Sales
 - Gross Sales
 - Gross Margin
