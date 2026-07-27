@@ -913,15 +913,6 @@ The dashboard provides a centralized view of business performance across multipl
 </p>
 
 
-
-#Finance KPIs
-- Net Sales
-- Gross Sales
-- Gross Margin
-- Gross Margin %
-- Net Profit
-- Year-over-Year Growth
-
 ---
 
 # 📈 Sales Dashboard
@@ -1048,13 +1039,19 @@ The dashboards monitor important business metrics including:
 - net_error %
 - risk
 
-  
+
 # Finance KPIs
 -manufacturing_cost
 -freight_cost
 -operational_expenses
 -other_cost
 -p&l final value
+- Net Sales
+- Gross Sales
+- Gross Margin
+- Gross Margin %
+- Net Profit
+- Year-over-Year Growth
   
 
 #Business KPIs
@@ -1066,6 +1063,10 @@ The dashboards monitor important business metrics including:
 -Product Performance
 -Regional Performance
 -Market Performance
+
+
+
+
 
 
 # 🎯 Business Value
