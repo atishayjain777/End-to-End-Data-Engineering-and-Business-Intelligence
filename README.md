@@ -1133,13 +1133,13 @@ Developed an executive dashboard that consolidates enterprise KPIs into a single
 The dashboards monitor important business metrics including:
 
 
-#Sales KPIs
+##Sales KPIs
 - Market-wise Net Sales
 - Customer-wise Net Sales
 - Product-wise Net Sales
 - Fiscal Year-wise Net Sales
   
-#Forecast KPIs
+##Forecast KPIs
 - Forecast Accuracy
 - Forecast Bias
 - forecast_accuracy %
