@@ -500,6 +500,7 @@ Database architecture consists of:
 
 - fact_sales_monthly
 - fact_forecast_monthly
+- heper_clean(fact_actual_estimates)
 
 ### Dimension Tables
 
@@ -515,6 +516,9 @@ Database architecture consists of:
 - freight_cost
 - pre_invoice_deductions
 - post_invoice_deductions
+- operational_expenses
+- market_sales
+  
 
 ---
 
@@ -716,7 +720,7 @@ A dimensional data warehouse was designed using a Star Schema to support high-pe
 
 - fact_actual_estimate
 - fact_forecast_monthly
-- helper_clean
+- helper_clean(fact_actual_estimates)
 
 ### Dimension Tables
 
@@ -753,7 +757,10 @@ Advanced SQL was implemented to transform transactional data into analytical dat
 - User Defined Functions
 - Temporary Tables (if applicable)
 - Subqueries
+- Indexing
+- Triggers
 - Query Optimization
+
 
 ---
 
@@ -773,6 +780,10 @@ Examples include:
 - Profitability Analysis
 - Regional Sales Analysis
 - Sub-Zone Performance Analysis
+- YOY Growth % Analysis
+- Market Wise sales Analysis
+- Customer Segment  Wise Sales Analysis
+- Subzone Wise Total Market Share Analysis
 
 ---
 
@@ -915,7 +926,30 @@ The dashboard provides a centralized view of business performance across multipl
 <img src="https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/PowerBI/PowerBI/Screenshots/finance_view_dashboard.png" width="100%">
 </p>
 
+💰 Finance Dashboard
 
+🎯 Business Objective
+Provide a comprehensive financial overview to monitor revenue, profitability, expenses, and year-over-year performance, enabling management to make informed financial decisions.
+
+💡Business Insights
+
+Identified trends in Net Sales and Gross Sales across fiscal years.
+Evaluated Gross Margin % to measure business profitability.
+Compared Operating Expenses against revenue to identify cost optimization opportunities.
+Analyzed Net Profit performance across different markets and products.
+Used YTD, YTG, LY, and YoY measures to track financial growth and compare historical performance.
+
+📈 Business Impact
+
+Enabled executives to monitor financial KPIs from a centralized dashboard.
+Improved visibility into revenue, profitability, and operating costs.
+Supported data-driven budgeting and strategic financial planning.
+Helped identify high-performing and low-performing business segments.
+Reduced manual reporting effort by providing automated financial insights.
+
+✅ Solution
+
+The Finance Dashboard integrates SQL-based financial data with advanced Power BI DAX calculations to deliver interactive KPI reporting. It provides a single source of truth for revenue, expenses, profit, and growth metrics, allowing stakeholders to make faster and more informed business decisions.
 ---
 
 # 📈 Sales Dashboard
@@ -941,13 +975,27 @@ The dashboard provides a centralized view of business performance across multipl
 <img src="https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/PowerBI/PowerBI/Screenshots/marketing_view_dashboard.png" width="100%">
 </p>
 
-### Marketing Insights
+📣 Marketing Dashboard
 
-- Customer Contribution
-- Product Contribution
-- Market Share
-- Regional Performance
-- Customer Segmentation
+🎯 Business Objective
+Analyze market performance and customer trends to support marketing decisions.
+
+💡 Business Insights
+Compared market-wise revenue.
+Evaluated customer segmentation.
+Measured market contribution.
+Identified high-growth markets.
+
+📈 Business Impact
+Improved market analysis.
+Supported marketing strategy development.
+Identified growth opportunities.
+Enhanced customer targeting.
+
+✅ Solution
+Created a marketing analytics dashboard that enables stakeholders to evaluate market performance and customer behavior through interactive visualizations.
+
+
 
 ---
 
@@ -957,14 +1005,26 @@ The dashboard provides a centralized view of business performance across multipl
 <img src="https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/PowerBI/PowerBI/Screenshots/supply_chin_view_dashboard.png" width="100%">
 </p>
 
-### Supply Chain KPIs
+🚚 Supply Chain Dashboard
 
-- Forecast Accuracy
-- Forecast Bias
-- Net Error
-- Absolute Error
-- Customer Forecast Performance
-- Product Forecast Performance
+🎯 Business Objective
+Evaluate forecast performance and supply chain efficiency to improve demand planning.
+
+💡 Business Insights
+Measured Forecast Accuracy.
+Compared Forecast Bias and Net Error.
+Identified products with poor forecast performance.
+Analyzed demand planning effectiveness.
+
+📈 Business Impact
+Improved inventory planning.
+Reduced forecasting errors.
+Supported supply chain optimization.
+Enhanced demand forecasting accuracy.
+
+✅ Solution
+Developed a supply chain analytics dashboard that evaluates forecast performance using advanced DAX calculations and SQL-based data models.
+
 
 ---
 
@@ -974,15 +1034,28 @@ The dashboard provides a centralized view of business performance across multipl
 <img src="https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/PowerBI/PowerBI/Screenshots/executive_view_dashboard.png" width="100%">
 </p>
 
-# Executive KPIs
+📊 Executive Dashboard
 
-- Revenue Overview
-- Gross Margin
-- Profitability
-- Top Markets
-- Top Customers
-- Top Products
-- Year-over-Year Growth
+🎯 Business Objective
+Provide executives with a centralized view of overall business performance by tracking key financial, sales, and operational KPIs.
+
+💡 Business Insights
+
+Monitored overall business performance across fiscal years.
+Compared revenue, profitability, and growth trends.
+Identified top-performing markets and products.
+Tracked business KPIs through interactive visualizations.
+
+📈 Business Impact
+
+Enabled faster executive decision-making.
+Improved visibility into organizational performance.
+Reduced manual reporting efforts.
+Supported strategic planning using real-time KPIs.
+
+✅ Solution
+Developed an executive dashboard that consolidates enterprise KPIs into a single interactive view, enabling leadership to monitor business performance efficiently.
+
 
 ---
 
