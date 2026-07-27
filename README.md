@@ -1149,34 +1149,32 @@ The dashboards monitor important business metrics including:
 - risk
 
 
-#Finance KPIs
+## 💰 Finance KPIs
 
--manufacturing_cost
--freight_cost
--operational_expenses
--other_cost
--p&l final value
 - Net Sales
--Gross Sales
+- Gross Sales
 - Gross Margin
 - Gross Margin %
 - Net Profit
-- Year-over-Year Growth
+- Year-over-Year (YoY) Growth
+- Manufacturing Cost
+- Freight Cost
+- Operational Expenses
+- Other Costs
+- Profit & Loss (P&L)
 
-  
+---
 
-#Business KPIs
+## 📊 Business KPIs
 
--Market Share %
--Consumer MS %
--sales_qty
--quantity
--Customer Performance
--Product Performance
--Regional Performance
--Market Performance
-
-
+- Market Share %
+- Consumer Market Share %
+- Sales Quantity
+- Total Quantity
+- Customer Performance
+- Product Performance
+- Regional Performance
+- Market Performance
 
 
 
