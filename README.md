@@ -1156,11 +1156,12 @@ The dashboards monitor important business metrics including:
 -other_cost
 -p&l final value
 - Net Sales
-- Gross Sales
+-Gross Sales
 - Gross Margin
 - Gross Margin %
 - Net Profit
 - Year-over-Year Growth
+
   
 
 #Business KPIs
