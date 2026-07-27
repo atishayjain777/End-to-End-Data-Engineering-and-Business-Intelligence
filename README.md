@@ -1150,6 +1150,7 @@ The dashboards monitor important business metrics including:
 
 
 #Finance KPIs
+
 -manufacturing_cost
 -freight_cost
 -operational_expenses
@@ -1165,6 +1166,7 @@ The dashboards monitor important business metrics including:
   
 
 #Business KPIs
+
 -Market Share %
 -Consumer MS %
 -sales_qty
