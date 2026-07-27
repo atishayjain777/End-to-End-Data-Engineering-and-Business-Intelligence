@@ -35,7 +35,7 @@ Transforming raw retail transactional data into business-ready insights using **
 - Future Improvements
 - Repository Highlights
 - Connect With Me
-- 
+  
 
 # 📖 Project Overview
 
