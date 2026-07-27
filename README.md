@@ -676,7 +676,7 @@ The ETL (Extract, Transform, Load) process was developed using Python to automat
 
 The pipeline performs initial preprocessing before the SQL transformation layer.
 
-### ETL Features
+# ETL Features
 
 - CSV File Extraction
 - Automated Data Loading
@@ -693,7 +693,7 @@ The pipeline performs initial preprocessing before the SQL transformation layer.
 
 After loading the datasets into MySQL, SQL was used to clean, standardize, and prepare business-ready analytical data.
 
-### Data Cleaning Activities
+#Data Cleaning Activities
 
 - SQL-Based NULL Value Handling
 - UPDATE Queries
@@ -712,10 +712,11 @@ After loading the datasets into MySQL, SQL was used to clean, standardize, and p
 
 A dimensional data warehouse was designed using a Star Schema to support high-performance analytical reporting.
 
-### Fact Tables
+#Fact Tables
 
 - fact_actual_estimate
 - fact_forecast_monthly
+- helper_clean
 
 ### Dimension Tables
 
@@ -731,6 +732,8 @@ A dimensional data warehouse was designed using a Star Schema to support high-pe
 - freight_cost
 - pre_invoice_deductions
 - post_invoice_deductions
+- operational_expenses
+- market_sales
 
 ---
 
@@ -738,7 +741,7 @@ A dimensional data warehouse was designed using a Star Schema to support high-pe
 
 Advanced SQL was implemented to transform transactional data into analytical datasets and business KPIs.
 
-### SQL Features
+#SQL Features
 
 - Complex JOIN Operations
 - Aggregate Functions
@@ -971,7 +974,7 @@ The dashboard provides a centralized view of business performance across multipl
 <img src="https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/PowerBI/PowerBI/Screenshots/executive_view_dashboard.png" width="100%">
 </p>
 
-### Executive KPIs
+# Executive KPIs
 
 - Revenue Overview
 - Gross Margin
@@ -985,7 +988,7 @@ The dashboard provides a centralized view of business performance across multipl
 
 # 📌 Power BI Features Used
 
-### Data Preparation
+#Data Preparation
 
 - Power Query
 - Data Cleaning
@@ -993,7 +996,7 @@ The dashboard provides a centralized view of business performance across multipl
 - Relationship Management
 - Data Modeling
 
-### DAX Measures
+# DAX Measures
 
 - Net Sales
 - Gross Margin
@@ -1004,6 +1007,14 @@ The dashboard provides a centralized view of business performance across multipl
 - Year-over-Year Growth
 - Running Total
 - Contribution %
+
+ #Advanced DAX Measures
+• YTD Sales
+• YTG Sales
+• Last Year (LY)
+• Gross Margin %
+• Operating Expenses
+
 
 
 ### Interactive Features
@@ -1024,20 +1035,19 @@ The dashboards monitor important business metrics including:
 
 
 #Sales KPIs
-- Net Sales
-- Gross Sales
-- Gross Margin
-- Gross Margin %
-  
+• Market-wise Net Sales
+• Customer-wise Net Sales
+• Product-wise Net Sales
+• Fiscal Year-wise Net Sales
   
 #Forecast KPIs
-- Forecast Accuracy
-- Forecast Bias
-- forecast_accuracy %
-- forecast_qty
-- Net Error
-- net_error %
-- risk
+. Forecast Accuracy
+. Forecast Bias
+. forecast_accuracy %
+. forecast_qty
+. Net Error
+. net_error %
+.risk
 
 
 # Finance KPIs
@@ -1193,7 +1203,7 @@ This solution helps organizations to:
 
 This project demonstrates practical experience in:
 
-### Programming
+#Programming
 
 - Python
 - SQL
@@ -1221,6 +1231,10 @@ This project demonstrates practical experience in:
 - Power Query
 - Interactive Dashboards
 - KPI Reporting
+- Advanced DAX
+-Time Intelligence
+-KPI Development
+-Date Dimension Modeling
 
 ---
 
