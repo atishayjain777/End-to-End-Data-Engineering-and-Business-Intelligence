@@ -1392,29 +1392,42 @@ git clone https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Busi
 ```bash
 cd End-to-End-Data-Engineering-and-Business-Intelligence
 ```
+### 3️⃣ Install Required Python Libraries
 
-### 3️⃣ Create the Database
+Install the required Python libraries before running the ETL pipeline.
 
-Run the SQL scripts located in:
-
-```https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/tree/main/SQL/02_Dimension_Tables
-https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/tree/main/SQL/03_Fact_Tables
+```bash
+pip install pandas NumPy MySQL-connector-python openpyxl
 ```
 
----
+### 4️⃣ Configure MySQL
 
-### 4️⃣ Load Raw Data
+- Install MySQL Server and MySQL Workbench.
+- Create a new database (e.g., `global_estore`).
+- Update your MySQL username, password, and database name in the Python configuration file before running the ETL pipeline.
 
-Place all CSV files inside:
+  
+### 5️⃣ Prepare the Dataset
 
-https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/tree/main/Dataset
+Place all raw CSV files inside:
 
-Run the Python ETL script to load data into MySQL.
-https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/Python/main.py/05_MAIN.py
+```text
+Dataset/Raw_Data/
+```
 
+### 6️⃣ Run the Python ETL Pipeline
+
+Execute the main ETL script:
+
+```bash
+python Python/05_MAIN.py
+```
+
+This step loads all raw CSV files into the MySQL database.
 
 
 # 5️⃣ Execute SQL Scripts
+Execute the SQL scripts in the following order to build the data warehouse and business analytics layer:
 
 Run the SQL files in the following order:
 ```text
@@ -1458,8 +1471,8 @@ Open the Power BI report:
 ```
 PowerBI/Global_Estore_Dashboard.pbix
 ```
+Refresh the data model to establish the connection with the MySQL database and explore the interactive dashboards.
 
-Refresh the data source and explore the dashboards.
 
 ---
 
@@ -1507,8 +1520,8 @@ Planned enhancements include:
 
 **Atishay Jain**
 
-- LinkedIn: https://https://www.linkedin.com/feed/
-- GitHub: https://https://github.com/atishayjain777
+- LinkedIn: https://www.linkedin.com/feed/
+- GitHub: https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence
 - Email: your-"atishayjain849@gmail.com"
 
 ---
