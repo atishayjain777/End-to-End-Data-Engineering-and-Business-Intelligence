@@ -17,6 +17,26 @@ Transforming raw retail transactional data into business-ready insights using **
 
 ---
 
+## 📑 Table of Contents
+
+- Project Overview
+- Business Problem
+- Project Objectives
+- Why This Project
+- Project Scope
+- End-to-End Workflow
+- Solution Architecture
+- ETL Pipeline
+- Database Architecture
+- Project Structure
+- Power BI Dashboards
+- Business Insights
+- Installation
+- Future Improvements
+- Repository Highlights
+- Connect With Me
+- 
+
 # 📖 Project Overview
 
 This project demonstrates the complete lifecycle of building a production-style Business Intelligence solution, starting from a raw retail CSV dataset and ending with interactive executive dashboards.
@@ -894,16 +914,6 @@ Interactive dashboards were developed in Power BI to transform warehouse data in
 
 ---
 
-# 🖼️ Dashboard Overview
-
-<p align="center">
-<img src="https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/Images/solution_architecture.png" width="100%">
-</p>
-
-The dashboard provides a centralized view of business performance across multiple functional areas.
-
----
-
 # 🏠 Home Dashboard
 
 <p align="center">
@@ -958,14 +968,30 @@ The Finance Dashboard integrates SQL-based financial data with advanced Power BI
 <img src="https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/PowerBI/PowerBI/Screenshots/sales_view_dashboadr.png" width="100%">
 </p>
 
-### Sales Analysis
+Business Objective
 
-- Sales by Customer
-- Sales by Product
-- Sales by Market
-- Monthly Sales Trend
-- Top Performing Products
-- Top Customers
+Provide a comprehensive view of sales performance across customers, products, markets, and time periods to help management monitor revenue trends, identify growth opportunities, and improve sales strategies.
+
+💡 Business Insights
+
+Analyzed sales performance by customer, product, and market.
+Identified top-performing and low-performing products.
+Compared sales across fiscal years and months.
+Monitored customer contribution to total revenue.
+Evaluated regional and market-wise sales performance.
+Tracked sales growth trends using interactive KPIs.
+
+📈 Business Impact
+
+Enabled sales managers to identify high-value customers and products.
+Improved visibility into market and regional performance.
+Supported strategic sales planning through data-driven insights.
+Helped identify declining sales trends and growth opportunities.
+Reduced manual reporting by providing interactive dashboards.
+
+✅ Solution
+
+Developed an interactive Sales Dashboard in Power BI using SQL-transformed data and advanced DAX measures. The dashboard provides real-time insights into sales performance, customer behavior, product contribution, and market trends, enabling faster and more informed business decision
 
 ---
 
@@ -1082,11 +1108,11 @@ Developed an executive dashboard that consolidates enterprise KPIs into a single
 - Contribution %
 
  #Advanced DAX Measures
-• YTD Sales
-• YTG Sales
-• Last Year (LY)
-• Gross Margin %
-• Operating Expenses
+- YTD Sales
+- YTG Sales
+- Last Year (LY)
+- Gross Margin %
+- Operating Expenses
 
 
 
@@ -1108,19 +1134,19 @@ The dashboards monitor important business metrics including:
 
 
 #Sales KPIs
-• Market-wise Net Sales
-• Customer-wise Net Sales
-• Product-wise Net Sales
-• Fiscal Year-wise Net Sales
+- Market-wise Net Sales
+- Customer-wise Net Sales
+- Product-wise Net Sales
+- Fiscal Year-wise Net Sales
   
 #Forecast KPIs
-. Forecast Accuracy
-. Forecast Bias
-. forecast_accuracy %
-. forecast_qty
-. Net Error
-. net_error %
-.risk
+- Forecast Accuracy
+- Forecast Bias
+- forecast_accuracy %
+- forecast_qty
+- Net Error
+- net_error %
+- risk
 
 
 # Finance KPIs
@@ -1348,7 +1374,7 @@ Make sure the following software is installed:
 - MySQL Workbench
 - Power BI Desktop
 - Git
-- Visual Studio Code (Optional)
+- Visual Studio Code 
 
 ---
 
@@ -1436,91 +1462,7 @@ Refresh the data source and explore the dashboards.
 
 ---
 
-# 📁 Project Structure
-
-```text
-End-to-End-Data-Engineering-and-Business-Intelligence/
-│
-├── Dataset/
-│   ├── Raw_Data/
-│   │   ├── dim_customer.csv
-│   │   ├── dim_product.csv
-│   │   ├── dim_market.csv
-│   │   ├── fact_sales_monthly.csv
-│   │   ├── fact_forecast_monthly.csv
-│   │   ├── gross_price.csv
-│   │   ├── manufacturing_cost.csv
-│   │   ├── freight_cost.csv
-│   │   ├── pre_invoice_deductions.csv
-│   │   └── post_invoice_deductions.csv
-│   │
-│   ├── Processed_Data/
-│   │   ├── helper.csv
-│   │   ├── helper_clean.csv
-│   │   └── final_dataset.csv
-│   │
-│   └── README.md
-│
-├── Documentation/
-│   ├── 01_Project_Report.pdf
-│   ├── 02_Solution_Architecture.png
-│   ├── 03_Data_Flow_Diagram.png
-│   ├── 04_ETL_Pipeline.png
-│   ├── 05_Star_Schema.png
-│   ├── 06_ER_Diagram.png
-│   └── README.md
-│
-├── Images/
-│   ├── dashboard_overview.png
-│   ├── home_dashboard.png
-│   ├── executive_dashboard.png
-│   ├── finance_dashboard.png
-│   ├── sales_dashboard.png
-│   ├── marketing_dashboard.png
-│   ├── supply_chain_dashboard.png
-│   ├── solution_architecture.png
-│   ├── data_flow_diagram.png
-│   ├── etl_pipeline.png
-│   ├── star_schema.png
-│   └── er_diagram.png
-│
-├── PowerBI/
-│   ├── Global_Estore_Dashboard.pdf
-│   ├── README.md
-│   └── Screenshots/
-│
-├── Python/
-│   ├── 01_Read_CSV.py
-│   ├── 02_Clean_Data.py
-│   ├── 03_Database_Connection.py
-│   ├── 04_Load_Data.py
-│   ├── requirements.txt
-│   └── README.md
-│
-├── SQL/
-│   ├── 01_Database_Setup/
-│   ├── 02_Dimension_Tables/
-│   ├── 03_Fact_Tables/
-│   ├── 04_Data_Cleaning/
-│   ├── 05_Views/
-│   ├── 06_Functions/
-│   ├── 07_Stored_Procedures/
-│   ├── 08_Window_Functions/
-│   ├── 09_Business_Analysis/
-│   ├── 10_Data_Validation/
-│   ├── 11_Data_Profiling/
-│   ├── 12_Forecast_Validation/
-│   ├── 13_Indexes/
-│   ├── 14_Triggers/
-│   ├── 15_Events/
-│   ├── 16_Query_Optimization/
-│   └── README.md
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-└── requirements.txt
-```
+``
 # 🚀 Future Improvements
 
 Planned enhancements include:
@@ -1566,7 +1508,7 @@ Planned enhancements include:
 
 - LinkedIn: https://https://www.linkedin.com/feed/
 - GitHub: https://https://github.com/atishayjain777
-- Email: your-atishayjain849@gmail.com
+- Email: your-"atishayjain849@gmail.com"
 
 ---
 
@@ -1598,6 +1540,13 @@ Special thanks to:
 - MySQL Documentation
 - Python Community
 - Open Source Community
+
+  ## 📚 References
+
+- Codebasics
+- Microsoft Power BI Documentation
+- MySQL Documentation
+- Python Documentation
 
 ---
 
