@@ -1027,9 +1027,9 @@ The dashboard provides a centralized view of business performance across multipl
 # 📈 Key Performance Indicators (KPIs)
 
 The dashboards monitor important business metrics including:
+
+
 #Sales KPIs
-
-
 - Net Sales
 - Gross Sales
 - Gross Margin
@@ -1299,7 +1299,7 @@ https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intel
 # 5️⃣ Execute SQL Scripts
 
 Run the SQL files in the following order:
-
+```text
 Database Setup
 ↓
 Dimension Tables
@@ -1331,6 +1331,7 @@ Events
 Business Analysis Queries
 ↓
 Query Optimization
+```
 
 # 6️⃣ Open Power BI Dashboard
 
