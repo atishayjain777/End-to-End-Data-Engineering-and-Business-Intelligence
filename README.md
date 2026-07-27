@@ -960,7 +960,7 @@ Reduced manual reporting effort by providing automated financial insights.
 ✅ Solution
 
 The Finance Dashboard integrates SQL-based financial data with advanced Power BI DAX calculations to deliver interactive KPI reporting. It provides a single source of truth for revenue, expenses, profit, and growth metrics, allowing stakeholders to make faster and more informed business decisions.
----
+
 
 # 📈 Sales Dashboard
 
@@ -1149,7 +1149,7 @@ The dashboards monitor important business metrics including:
 - risk
 
 
-# Finance KPIs
+#Finance KPIs
 -manufacturing_cost
 -freight_cost
 -operational_expenses
