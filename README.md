@@ -1294,7 +1294,9 @@ https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intel
 Run the Python ETL script to load data into MySQL.
 https://github.com/atishayjain777/End-to-End-Data-Engineering-and-Business-Intelligence/blob/main/Python/main.py/05_MAIN.py
 
-### 5️⃣ Execute SQL Scripts
+
+
+# 5️⃣ Execute SQL Scripts
 
 Run the SQL files in the following order:
 
@@ -1330,7 +1332,7 @@ Business Analysis Queries
 ↓
 Query Optimization
 
-### 6️⃣ Open Power BI Dashboard
+# 6️⃣ Open Power BI Dashboard
 
 Open the Power BI report:
 
